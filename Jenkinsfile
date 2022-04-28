@@ -15,7 +15,7 @@ pipeline {
         stage('Deploy') {
             steps {
                 echo 'Deploying...'
-                sh 'python labscript.py'
+                bat 'python labscript.py'
             }
         }
     }
