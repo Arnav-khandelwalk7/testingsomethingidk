@@ -4,17 +4,17 @@ pipeline {
     stages {
         stage('Build') {
             steps {
-                echo 'hululu..'
+                echo 'Building...'
             }
         }
         stage('Test') {
             steps {
-                echo 'hululu2..'
+                echo 'Testing...'
             }
         }
         stage('Deploy') {
             steps {
-                echo 'Deploying....'
+                echo 'Various Courses and credits of this semester:- "Devops:3", "communication skills:3", "HPC:5", "UGR:1","capstone:1", "SPM:3","Career skills:3"'
             }
         }
     }
